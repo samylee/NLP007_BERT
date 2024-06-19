@@ -5,15 +5,14 @@ NLP007: bert using pytorch
 ### 要求
 > Python == 3.6.13 \
 > PyTorch == 1.10.1  
-### 数据集下载
-[corpus.small(提取码8888)](https://pan.baidu.com/s/1sEc-rBHw_R3ZlRr-6xiI-w)
+### 数据集和已训练模型下载
+[corpus.small(提取码8888)](https://pan.baidu.com/s/1sEc-rBHw_R3ZlRr-6xiI-w)  
+[epoch_100_loss_2.56.pt(提取码8888)](https://pan.baidu.com/s/14syhDAbclE2ZeCHnyM_Mpw)
 ### 训练
 ```shell script
 python train.py  
 loss: 0.56
 ```
-### 已训练好的模型下载
-[epoch_100_loss_2.56.pt(提取码8888)](https://pan.baidu.com/s/14syhDAbclE2ZeCHnyM_Mpw)
 ### 测试
 ```shell script
 python predict.py  
